@@ -1,0 +1,6 @@
+@DoAnMonHocBE_HostAddress = http://localhost:5001
+
+GET {{DoAnMonHocBE_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

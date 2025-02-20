@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\DoAnMonHocBE",
+    "\\DoAnMonHocBE\\Payload",
+    "\\DoAnMonHocBE\\Payload\\Request",
+    "\\DoAnMonHocBE\\Payload\\Request\\Comic",
+    "\\DoAnMonHocBE\\Payload\\Request\\ComicType",
+    "\\DoAnMonHocBE\\Payload\\Request\\Role",
+    "\\DoAnMonHocBE\\Payload\\Request\\User",
+    "\\DoAnMonHocBE\\Service",
+    "\\DoAnMonHocBE\\Service\\Implements"
+  ],
+  "SelectedNode": "\\DoAnMonHocBE.sln",
+  "PreviewInSolutionExplorer": false
+}
