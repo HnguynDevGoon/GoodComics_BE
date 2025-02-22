@@ -142,3 +142,4 @@ D:\Types_ of_ work\Project\DoAnMonHocBE\DoAnMonHocBE\obj\Debug\net8.0\refint\DoA
 D:\Types_ of_ work\Project\DoAnMonHocBE\DoAnMonHocBE\obj\Debug\net8.0\DoAnMonHocBE.pdb
 D:\Types_ of_ work\Project\DoAnMonHocBE\DoAnMonHocBE\obj\Debug\net8.0\DoAnMonHocBE.genruntimeconfig.cache
 D:\Types_ of_ work\Project\DoAnMonHocBE\DoAnMonHocBE\obj\Debug\net8.0\ref\DoAnMonHocBE.dll
+D:\Types_ of_ work\Project\DoAnMonHocBE\DoAnMonHocBE\obj\Debug\net8.0\DoAnMonHocBE.sourcelink.json

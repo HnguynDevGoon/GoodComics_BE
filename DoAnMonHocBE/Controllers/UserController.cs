@@ -51,11 +51,11 @@ namespace DoAnMonHocBE.Controllers
             return Ok(service_User.ChangePassword(userId, oldPass, newPass));
         }
 
-        [HttpPut("AccountVerification")]
-        public IActionResult AccountVerification(string code)
-        {
-            return Ok(service_User.AccountVerification(code));
-        }
+        //[HttpPut("AccountVerification")]
+        //public IActionResult AccountVerification(string code)
+        //{
+        //    return Ok(service_User.AccountVerification(code));
+        //}
 
         [HttpPost("UserLogin")]
         public IActionResult UserLogin(Request_Login request)

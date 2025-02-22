@@ -1,4 +1,5 @@
-﻿using DoAnMonHocBE.DataContext;
+﻿using Azure.Core;
+using DoAnMonHocBE.DataContext;
 using DoAnMonHocBE.Entities;
 using DoAnMonHocBE.Handle;
 using DoAnMonHocBE.PayLoad.Converter;
@@ -36,6 +37,12 @@ namespace DoAnMonHocBE.Service.Implements
             if (user == null)
             {
                 return responseBase.ResponseError(StatusCodes.Status404NotFound, "Người dùng không tồn tại!");
+            }
+
+            string checkPassword = CheckInput.IsPassWord(newPass);
+            if (checkPassword != newPass)
+            {
+                return responseBase.ResponseError(400, checkPassword);
             }
 
             if (BCrypt.Net.BCrypt.Verify(oldPass, user.Password)) 
@@ -128,23 +135,23 @@ namespace DoAnMonHocBE.Service.Implements
             dbContext.SaveChanges();
 
             // Email To
-            Random r = new Random();
-            int code = r.Next(100000, 999999);
-            var emailTo = new EmailTo();
-            emailTo.Mail = request.Email;
-            emailTo.Subject = "Nhận mã";
-            emailTo.Content = $"Mã xác nhận của bạn là: {code}. Mã của bạn sẽ hết hạn sau 2 phút !";
-            emailTo.SendEmailAsync(emailTo);
+            //Random r = new Random();
+            //int code = r.Next(100000, 999999);
+            //var emailTo = new EmailTo();
+            //emailTo.Mail = request.Email;
+            //emailTo.Subject = "Nhận mã";
+            //emailTo.Content = $"Mã xác nhận của bạn là: {code}. Mã của bạn sẽ hết hạn sau 2 phút !";
+            //emailTo.SendEmailAsync(emailTo);
 
             // ConfirmEmail
-            var confirmEmail = new ConfirmEmail();
-            confirmEmail.Code = code.ToString();
-            confirmEmail.Message = "Xác nhận đăng kí !";
-            confirmEmail.Starttime = DateTime.Now;
-            confirmEmail.Expiredtime = DateTime.Now.AddMinutes(2);
-            confirmEmail.UserId = userAccount.Id;
-            dbContext.confirmemails.Add(confirmEmail);
-            dbContext.SaveChanges();
+            //var confirmEmail = new ConfirmEmail();
+            //confirmEmail.Code = code.ToString();
+            //confirmEmail.Message = "Xác nhận đăng kí !";
+            //confirmEmail.Starttime = DateTime.Now;
+            //confirmEmail.Expiredtime = DateTime.Now.AddMinutes(2);
+            //confirmEmail.UserId = userAccount.Id;
+            //dbContext.confirmemails.Add(confirmEmail);
+            //dbContext.SaveChanges();
 
 
             return responseBase.ResponseSuccess("Đăng ký tài khoản thành công !");
@@ -282,11 +289,6 @@ namespace DoAnMonHocBE.Service.Implements
                 return responseObject.ResponseObjectError(StatusCodes.Status400BadRequest, "Tên tài khoản hoặc mật khẩu không hợp lệ!", null);
             }
 
-            if (user.Active == false)
-            {
-                return responseObject.ResponseObjectError(StatusCodes.Status403Forbidden, "Tài khoản của bạn chưa được kích hoạt", null);
-            }
-
             if (BCrypt.Net.BCrypt.Verify(request.Password, user.Password))
             {
                 return responseObject.ResponseObjectSuccess("Xác nhận mật khẩu thành công", converter_User.EntityToDTO(user));
@@ -295,20 +297,20 @@ namespace DoAnMonHocBE.Service.Implements
 
         }
 
-        public ResponseBase AccountVerification(string code)
-        {
-            var confirmEmail = dbContext.confirmemails.FirstOrDefault(x => x.Code.Equals(code));
-            if (confirmEmail == null)
-            {
-                return responseBase.ResponseError(400, "Mã xác nhận không đúng !"); 
-            }
-            var nguoiDung = dbContext.users.FirstOrDefault(x => x.Id == confirmEmail.UserId);
-            nguoiDung.Active = true;
-            dbContext.users.Update(nguoiDung);
-            dbContext.confirmemails.Update(confirmEmail);
-            dbContext.SaveChanges();
-            return responseBase.ResponseSuccess("Xác thực thành công !");
-        }
+        //public ResponseBase AccountVerification(string code)
+        //{
+        //    var confirmEmail = dbContext.confirmemails.FirstOrDefault(x => x.Code.Equals(code));
+        //    if (confirmEmail == null)
+        //    {
+        //        return responseBase.ResponseError(400, "Mã xác nhận không đúng !"); 
+        //    }
+        //    var nguoiDung = dbContext.users.FirstOrDefault(x => x.Id == confirmEmail.UserId);
+        //    nguoiDung.Active = true;
+        //    dbContext.users.Update(nguoiDung);
+        //    dbContext.confirmemails.Update(confirmEmail);
+        //    dbContext.SaveChanges();
+        //    return responseBase.ResponseSuccess("Xác thực thành công !");
+        //}
 
 
 

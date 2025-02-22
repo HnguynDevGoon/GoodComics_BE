@@ -6,7 +6,7 @@
         public string Password { get; set; }
         public string Email { get; set; }
         public string Urlavartar { get; set; }
-        public bool? Active { get; set; } = false;
+        //public bool? Active { get; set; } = false;
 
 
         public int? RoleId { get; set; } = 2;

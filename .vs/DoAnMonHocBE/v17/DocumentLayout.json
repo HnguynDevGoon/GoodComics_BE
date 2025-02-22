@@ -7,20 +7,24 @@
       "RelativeMoniker": "D:0:0:{0F8578D6-DF86-4921-9CFA-B439E5EAD71E}|DoAnMonHocBE\\DoAnMonHocBE.csproj|solutionrelative:doanmonhocbe\\service\\implements\\service_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F8578D6-DF86-4921-9CFA-B439E5EAD71E}|DoAnMonHocBE\\DoAnMonHocBE.csproj|d:\\types_ of_ work\\project\\doanmonhocbe\\doanmonhocbe\\service\\implements\\service_comic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F8578D6-DF86-4921-9CFA-B439E5EAD71E}|DoAnMonHocBE\\DoAnMonHocBE.csproj|solutionrelative:doanmonhocbe\\service\\implements\\service_comic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F8578D6-DF86-4921-9CFA-B439E5EAD71E}|DoAnMonHocBE\\DoAnMonHocBE.csproj|d:\\types_ of_ work\\project\\doanmonhocbe\\doanmonhocbe\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F8578D6-DF86-4921-9CFA-B439E5EAD71E}|DoAnMonHocBE\\DoAnMonHocBE.csproj|solutionrelative:doanmonhocbe\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F8578D6-DF86-4921-9CFA-B439E5EAD71E}|DoAnMonHocBE\\DoAnMonHocBE.csproj|d:\\types_ of_ work\\project\\doanmonhocbe\\doanmonhocbe\\entities\\comic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F8578D6-DF86-4921-9CFA-B439E5EAD71E}|DoAnMonHocBE\\DoAnMonHocBE.csproj|solutionrelative:doanmonhocbe\\entities\\comic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F8578D6-DF86-4921-9CFA-B439E5EAD71E}|DoAnMonHocBE\\DoAnMonHocBE.csproj|d:\\types_ of_ work\\project\\doanmonhocbe\\doanmonhocbe\\service\\implements\\service_comic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F8578D6-DF86-4921-9CFA-B439E5EAD71E}|DoAnMonHocBE\\DoAnMonHocBE.csproj|solutionrelative:doanmonhocbe\\service\\implements\\service_comic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F8578D6-DF86-4921-9CFA-B439E5EAD71E}|DoAnMonHocBE\\DoAnMonHocBE.csproj|d:\\types_ of_ work\\project\\doanmonhocbe\\doanmonhocbe\\service\\interface\\iservice_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F8578D6-DF86-4921-9CFA-B439E5EAD71E}|DoAnMonHocBE\\DoAnMonHocBE.csproj|solutionrelative:doanmonhocbe\\service\\interface\\iservice_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F8578D6-DF86-4921-9CFA-B439E5EAD71E}|DoAnMonHocBE\\DoAnMonHocBE.csproj|d:\\types_ of_ work\\project\\doanmonhocbe\\doanmonhocbe\\payload\\request\\comic\\request_updatecontentcomic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F8578D6-DF86-4921-9CFA-B439E5EAD71E}|DoAnMonHocBE\\DoAnMonHocBE.csproj|solutionrelative:doanmonhocbe\\payload\\request\\comic\\request_updatecontentcomic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F8578D6-DF86-4921-9CFA-B439E5EAD71E}|DoAnMonHocBE\\DoAnMonHocBE.csproj|d:\\types_ of_ work\\project\\doanmonhocbe\\doanmonhocbe\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F8578D6-DF86-4921-9CFA-B439E5EAD71E}|DoAnMonHocBE\\DoAnMonHocBE.csproj|solutionrelative:doanmonhocbe\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F8578D6-DF86-4921-9CFA-B439E5EAD71E}|DoAnMonHocBE\\DoAnMonHocBE.csproj|d:\\types_ of_ work\\project\\doanmonhocbe\\doanmonhocbe\\entities\\comic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F8578D6-DF86-4921-9CFA-B439E5EAD71E}|DoAnMonHocBE\\DoAnMonHocBE.csproj|solutionrelative:doanmonhocbe\\entities\\comic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F8578D6-DF86-4921-9CFA-B439E5EAD71E}|DoAnMonHocBE\\DoAnMonHocBE.csproj|d:\\types_ of_ work\\project\\doanmonhocbe\\doanmonhocbe\\service\\interface\\iservice_comic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 29,
+          "SelectedChildIndex": 31,
           "Children": [
             {
               "$type": "Bookmark",
@@ -166,19 +170,43 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Types_ of_ work\\Project\\DoAnMonHocBE\\DoAnMonHocBE\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "DoAnMonHocBE\\Entities\\User.cs",
+              "ToolTip": "D:\\Types_ of_ work\\Project\\DoAnMonHocBE\\DoAnMonHocBE\\Entities\\User.cs",
+              "RelativeToolTip": "DoAnMonHocBE\\Entities\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T04:00:39.557Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Types_ of_ work\\Project\\DoAnMonHocBE\\DoAnMonHocBE\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "DoAnMonHocBE\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\Types_ of_ work\\Project\\DoAnMonHocBE\\DoAnMonHocBE\\Controllers\\UserController.cs",
+              "RelativeToolTip": "DoAnMonHocBE\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAswEcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-21T03:56:20.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Service_Comic.cs",
               "DocumentMoniker": "D:\\Types_ of_ work\\Project\\DoAnMonHocBE\\DoAnMonHocBE\\Service\\Implements\\Service_Comic.cs",
               "RelativeDocumentMoniker": "DoAnMonHocBE\\Service\\Implements\\Service_Comic.cs",
               "ToolTip": "D:\\Types_ of_ work\\Project\\DoAnMonHocBE\\DoAnMonHocBE\\Service\\Implements\\Service_Comic.cs",
               "RelativeToolTip": "DoAnMonHocBE\\Service\\Implements\\Service_Comic.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAAwJMAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAmwAAAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-18T12:47:23.995Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Comic.cs",
               "DocumentMoniker": "D:\\Types_ of_ work\\Project\\DoAnMonHocBE\\DoAnMonHocBE\\Entities\\Comic.cs",
               "RelativeDocumentMoniker": "DoAnMonHocBE\\Entities\\Comic.cs",
@@ -196,7 +224,7 @@
               "RelativeDocumentMoniker": "DoAnMonHocBE\\Service\\Implements\\Service_User.cs",
               "ToolTip": "D:\\Types_ of_ work\\Project\\DoAnMonHocBE\\DoAnMonHocBE\\Service\\Implements\\Service_User.cs",
               "RelativeToolTip": "DoAnMonHocBE\\Service\\Implements\\Service_User.cs",
-              "ViewState": "AgIAAMYAAAAAAAAAAAD4v/YAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAANYAAAAAAAAAAAAewN4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-18T12:11:34.684Z",
               "EditorCaption": ""
@@ -209,25 +237,13 @@
               "RelativeDocumentMoniker": "DoAnMonHocBE\\Service\\Interface\\IService_User.cs",
               "ToolTip": "D:\\Types_ of_ work\\Project\\DoAnMonHocBE\\DoAnMonHocBE\\Service\\Interface\\IService_User.cs",
               "RelativeToolTip": "DoAnMonHocBE\\Service\\Interface\\IService_User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABRAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-19T19:55:43.08Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Request_UpdateContentComic.cs",
-              "DocumentMoniker": "D:\\Types_ of_ work\\Project\\DoAnMonHocBE\\DoAnMonHocBE\\Payload\\Request\\Comic\\Request_UpdateContentComic.cs",
-              "RelativeDocumentMoniker": "DoAnMonHocBE\\Payload\\Request\\Comic\\Request_UpdateContentComic.cs",
-              "ToolTip": "D:\\Types_ of_ work\\Project\\DoAnMonHocBE\\DoAnMonHocBE\\Payload\\Request\\Comic\\Request_UpdateContentComic.cs",
-              "RelativeToolTip": "DoAnMonHocBE\\Payload\\Request\\Comic\\Request_UpdateContentComic.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T13:06:39.325Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "IService_Comic.cs",
               "DocumentMoniker": "D:\\Types_ of_ work\\Project\\DoAnMonHocBE\\DoAnMonHocBE\\Service\\Interface\\IService_Comic.cs",
               "RelativeDocumentMoniker": "DoAnMonHocBE\\Service\\Interface\\IService_Comic.cs",
@@ -239,7 +255,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "HobbyController.cs",
               "DocumentMoniker": "D:\\Types_ of_ work\\Project\\DoAnMonHocBE\\DoAnMonHocBE\\Controllers\\HobbyController.cs",
               "RelativeDocumentMoniker": "DoAnMonHocBE\\Controllers\\HobbyController.cs",
@@ -251,7 +267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Request_CreateComic.cs",
               "DocumentMoniker": "D:\\Types_ of_ work\\Project\\DoAnMonHocBE\\DoAnMonHocBE\\Payload\\Request\\Comic\\Request_CreateComic.cs",
               "RelativeDocumentMoniker": "DoAnMonHocBE\\Payload\\Request\\Comic\\Request_CreateComic.cs",
@@ -263,7 +279,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Request_UpdateComic.cs",
               "DocumentMoniker": "D:\\Types_ of_ work\\Project\\DoAnMonHocBE\\DoAnMonHocBE\\Payload\\Request\\Comic\\Request_UpdateComic.cs",
               "RelativeDocumentMoniker": "DoAnMonHocBE\\Payload\\Request\\Comic\\Request_UpdateComic.cs",
@@ -275,7 +291,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "IService_Comment.cs",
               "DocumentMoniker": "D:\\Types_ of_ work\\Project\\DoAnMonHocBE\\DoAnMonHocBE\\Service\\Interface\\IService_Comment.cs",
               "RelativeDocumentMoniker": "DoAnMonHocBE\\Service\\Interface\\IService_Comment.cs",
@@ -287,7 +303,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "CommentController.cs",
               "DocumentMoniker": "D:\\Types_ of_ work\\Project\\DoAnMonHocBE\\DoAnMonHocBE\\Controllers\\CommentController.cs",
               "RelativeDocumentMoniker": "DoAnMonHocBE\\Controllers\\CommentController.cs",

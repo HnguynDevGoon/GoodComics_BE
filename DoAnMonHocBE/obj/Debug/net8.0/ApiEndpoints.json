@@ -420,22 +420,6 @@
   },
   {
     "ContainingType": "DoAnMonHocBE.Controllers.UserController",
-    "Method": "AccountVerification",
-    "RelativePath": "api/User/AccountVerification",
-    "HttpMethod": "PUT",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "code",
-        "Type": "System.String",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "DoAnMonHocBE.Controllers.UserController",
     "Method": "ChangePassword",
     "RelativePath": "api/User/ChangePassword",
     "HttpMethod": "PUT",

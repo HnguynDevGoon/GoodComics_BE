@@ -12,7 +12,7 @@ namespace DoAnMonHocBE.Service.Interfaces
         public ResponseObject<DTO_User> DeleteUser(int userId);
         public ResponseBase ChangePassword(int userId, string oldPass, string newPass);
         public ResponseObject<DTO_User> UpdateAvatar(Request_UpdateUser request);
-        public ResponseBase AccountVerification(string code);
+        //public ResponseBase AccountVerification(string code);
         public ResponseObject<DTO_User> UserLogin(Request_Login request);
 
         public ResponseBase ForgotPassword(string email);

@@ -858,27 +858,6 @@
         }
       }
     },
-    "/api/User/AccountVerification": {
-      "put": {
-        "tags": [
-          "User"
-        ],
-        "parameters": [
-          {
-            "name": "code",
-            "in": "query",
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
     "/api/User/UserLogin": {
       "post": {
         "tags": [

@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DoAnMonHocBE.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250209103939_InitDB")]
-    partial class InitDB
+    [Migration("20250221040717_InitDb")]
+    partial class InitDb
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -214,9 +214,6 @@ namespace DoAnMonHocBE.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<bool?>("Active")
-                        .HasColumnType("bit");
 
                     b.Property<string>("Email")
                         .IsRequired()
