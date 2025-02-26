@@ -21,9 +21,9 @@ namespace DoAnMonHocBE.Controllers
         }
 
         [HttpGet("GetListComment")]
-        public IActionResult GetListComment(int pageSize = 10, int pageNumber = 1)
+        public IActionResult GetListComment(int comicId)
         {
-            return Ok(service_Comment.GetListComment(pageSize, pageNumber));
+            return Ok(service_Comment.GetListComment(comicId));
         }
     }
 }

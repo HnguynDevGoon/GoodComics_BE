@@ -10,59 +10,52 @@
         "tags": [
           "Comic"
         ],
-        "parameters": [
-          {
-            "name": "ComicName",
-            "in": "query",
-            "schema": {
-              "type": "string"
-            }
-          },
-          {
-            "name": "ComicContent",
-            "in": "query",
-            "schema": {
-              "type": "string"
-            }
-          },
-          {
-            "name": "ComicAuthor",
-            "in": "query",
-            "schema": {
-              "type": "string"
-            }
-          },
-          {
-            "name": "CreateDate",
-            "in": "query",
-            "schema": {
-              "type": "string",
-              "format": "date-time"
-            }
-          },
-          {
-            "name": "ComicTypeId",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
         "requestBody": {
           "content": {
             "multipart/form-data": {
               "schema": {
                 "type": "object",
                 "properties": {
+                  "ComicName": {
+                    "type": "string"
+                  },
+                  "ComicContent": {
+                    "type": "string"
+                  },
+                  "ComicAuthor": {
+                    "type": "string"
+                  },
+                  "CreateDate": {
+                    "type": "string",
+                    "format": "date-time"
+                  },
                   "UrlImage": {
                     "type": "string",
                     "format": "binary"
+                  },
+                  "ComicTypeId": {
+                    "type": "integer",
+                    "format": "int32"
                   }
                 }
               },
               "encoding": {
+                "ComicName": {
+                  "style": "form"
+                },
+                "ComicContent": {
+                  "style": "form"
+                },
+                "ComicAuthor": {
+                  "style": "form"
+                },
+                "CreateDate": {
+                  "style": "form"
+                },
                 "UrlImage": {
+                  "style": "form"
+                },
+                "ComicTypeId": {
                   "style": "form"
                 }
               }
@@ -219,6 +212,24 @@
         "tags": [
           "Comic"
         ],
+        "parameters": [
+          {
+            "name": "pageNumber",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "pageSize",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -242,6 +253,28 @@
           },
           {
             "name": "pageNumber",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Comic/GetComicById": {
+      "get": {
+        "tags": [
+          "Comic"
+        ],
+        "parameters": [
+          {
+            "name": "comicId",
             "in": "query",
             "schema": {
               "type": "integer",
@@ -404,21 +437,11 @@
         ],
         "parameters": [
           {
-            "name": "pageSize",
+            "name": "comicId",
             "in": "query",
             "schema": {
               "type": "integer",
-              "format": "int32",
-              "default": 10
-            }
-          },
-          {
-            "name": "pageNumber",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32",
-              "default": 1
+              "format": "int32"
             }
           }
         ],

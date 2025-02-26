@@ -58,6 +58,22 @@
   },
   {
     "ContainingType": "DoAnMonHocBE.Controllers.ComicController",
+    "Method": "GetComicById",
+    "RelativePath": "api/Comic/GetComicById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "comicId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DoAnMonHocBE.Controllers.ComicController",
     "Method": "GetComicContent",
     "RelativePath": "api/Comic/GetComicContent",
     "HttpMethod": "GET",
@@ -84,7 +100,18 @@
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "pageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   },
   {
@@ -257,12 +284,7 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "pageSize",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
-        "Name": "pageNumber",
+        "Name": "comicId",
         "Type": "System.Int32",
         "IsRequired": false
       }

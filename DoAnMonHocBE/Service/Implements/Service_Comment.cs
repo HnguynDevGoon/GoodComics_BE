@@ -13,21 +13,21 @@ namespace DoAnMonHocBE.Service.Implements
         private readonly ResponseBase responseBase;
         private readonly ResponseObject<DTO_Comment> responseObject;
         private readonly Converter_Comment converter_Comment;
+
+        public Service_Comment(AppDbContext dbContext, ResponseBase responseBase, ResponseObject<DTO_Comment> responseObject, Converter_Comment converter_Comment)
+        {
+            this.dbContext = dbContext;
+            this.responseBase = responseBase;
+            this.responseObject = responseObject;
+            this.converter_Comment = converter_Comment;
+        }
+
         public ResponseBase AddNewComment(string commentTitle, int rate, int userId, int comicId)
         {
-            if (!dbContext.users.Any(x => x.Id == userId))
-            {
-                return responseBase.ResponseError(StatusCodes.Status404NotFound, "Người dùng không tồn tại");
-            }
 
             if (!dbContext.comics.Any(x => x.Id == comicId))
             {
                 return responseBase.ResponseError(StatusCodes.Status404NotFound, "Truyện không tồn tại");
-            }
-
-            if (string.IsNullOrWhiteSpace(commentTitle))
-            {
-                return responseBase.ResponseError(StatusCodes.Status400BadRequest, "Bình luận không được để trống");
             }
 
             if (rate < 1 || rate > 5)
@@ -49,13 +49,14 @@ namespace DoAnMonHocBE.Service.Implements
             return responseBase.ResponseSuccess("Đã thêm bình luận thành công!");
         }
 
-        public IQueryable<DTO_Comment> GetListComment(int pageSize, int pageNumber)
+        public IQueryable<DTO_Comment> GetListComment(int comicId)
         {
             return dbContext.comments
-                .Skip((pageNumber - 1) * pageSize)
-                .Take(pageSize)
-                .Select(c => converter_Comment.EntityToDTO(c));
+            .Where(c => c.ComicId == comicId) // Lọc bình luận theo comicId
+            .OrderByDescending(c => c.Id)
+            .Select(c => converter_Comment.EntityToDTO(c));
         }
+
 
     }
 }

@@ -16,7 +16,7 @@ namespace DoAnMonHocBE.Controllers
         }
 
         [HttpPost("CreateComic")]
-        public IActionResult CreateComic(Request_CreateComic request)
+        public IActionResult CreateComic([FromForm]Request_CreateComic request)
         {
             return Ok(service_Comic.CreateComic(request));
         }
@@ -39,9 +39,9 @@ namespace DoAnMonHocBE.Controllers
         }
 
         [HttpGet("GetListComic")]
-        public IActionResult GetListComic()
+        public IActionResult GetListComic(int pageNumber, int pageSize)
         {
-            return Ok( service_Comic.GetListComic());
+            return Ok( service_Comic.GetListComic(pageNumber, pageSize));
         }
 
         [HttpGet("GetComicContent")]
@@ -49,5 +49,12 @@ namespace DoAnMonHocBE.Controllers
         {
             return Ok(service_Comic.GetComicContent(comicId, pageNumber));
         }
+
+        [HttpGet("GetComicById")]
+        public IActionResult GetComicById(int comicId)
+        { 
+            return Ok(service_Comic.GetComicById(comicId));
+        }
+
     }
 }

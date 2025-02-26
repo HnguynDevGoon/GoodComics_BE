@@ -4,6 +4,8 @@ using DoAnMonHocBE.Handle;
 using DoAnMonHocBE.Payload.Converter;
 using DoAnMonHocBE.Payload.DTO;
 using DoAnMonHocBE.Payload.Request.Comic;
+using DoAnMonHocBE.Payload.Response;
+using DoAnMonHocBE.PayLoad.Converter;
 using DoAnMonHocBE.PayLoad.Response;
 using DoAnMonHocBE.Service.Interface;
 
@@ -74,40 +76,74 @@ namespace DoAnMonHocBE.Service.Implements
 
         }
 
-        public string GetComicContent(int comicId, int pageNumber)
+        public ResponseObject<DTO_Comic> GetComicById(int comicId)
         {
-            int pageSize = 400; // Số từ mỗi trang (400-500 từ)
+            var searchComicId = dbContext.comics.FirstOrDefault(x => x.Id == comicId);
+            if (searchComicId == null)
+            {
+                return responseObject.ResponseObjectError(StatusCodes.Status404NotFound, "Không tìm thấy truyện", null);
+            }
+
+            // Chuyển đổi role entity thành DTO
+            var comicDto = converter_Comic.EntityToDTO(searchComicId);
+
+            return responseObject.ResponseObjectSuccess("Tìm truyện thành công", comicDto);
+        }
+
+        public ComicContentResponse GetComicContent(int comicId, int pageNumber)
+        {
+            int pageSize = 400;
 
             var comic = dbContext.comics.FirstOrDefault(x => x.Id == comicId);
             if (comic == null)
-                return "Không tìm thấy truyện";
-            var comicContent = comic.ComicContent;
+                return new ComicContentResponse { Message = "Không tìm thấy truyện" };
 
-            if (string.IsNullOrEmpty(comicContent)) 
-            {
-                return "Không tìm thấy nội dung truyện";
-            }
+            var comicContent = comic.ComicContent;
+            if (string.IsNullOrEmpty(comicContent))
+                return new ComicContentResponse { Message = "Không tìm thấy nội dung truyện" };
 
             var words = comicContent.Split(' ');
-
             int totalPages = (int)Math.Ceiling((double)words.Length / pageSize);
 
-            if (pageNumber < 1 || pageNumber > totalPages) 
-            {
-                return "Trang không hợp lệ";
-            }
+            if (pageNumber < 1 || pageNumber > totalPages)
+                return new ComicContentResponse { Message = "Trang không hợp lệ" };
 
             var pageComicContent = words.Skip((pageNumber - 1) * pageSize).Take(pageSize);
+            string content = string.Join(" ", pageComicContent);
 
-            return string.Join(" ", pageComicContent);
+            return new ComicContentResponse
+            {
+                Content = content,
+                TotalPages = totalPages,
+                Message = "Lấy nội dung thành công"
+            };
         }
 
-        public List<DTO_Comic> GetListComic()
+
+        public ResponseComicPage GetListComic(int pageNumber, int pageSize)
         {
-            return  dbContext.comics
+            var query = dbContext.comics
+                .OrderBy(comic => comic.Id);
+
+            int totalItems = query.Count();
+            int totalPages = (int)Math.Ceiling(totalItems / (double)pageSize);
+
+            var comics = query
+                .Skip((pageNumber - 1) * pageSize)
+                .Take(pageSize)
                 .Select(comic => converter_Comic.EntityToDTO(comic))
-                .ToList();
+                .ToList()
+                .AsQueryable();
+
+            return new ResponseComicPage
+            {
+                Comics = comics,
+                TotalPages = totalPages,
+                CurrentPage = pageNumber,
+                TotalItems = totalItems
+            };
         }
+
 
         public ResponseObject<DTO_Comic> UpdateComic(Request_UpdateComic request)
         {

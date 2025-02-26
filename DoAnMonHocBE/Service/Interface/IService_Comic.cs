@@ -1,5 +1,7 @@
 ﻿using DoAnMonHocBE.Payload.DTO;
 using DoAnMonHocBE.Payload.Request.Comic;
+using DoAnMonHocBE.Payload.Response;
+using DoAnMonHocBE.PayLoad.DTO;
 using DoAnMonHocBE.PayLoad.Response;
 
 namespace DoAnMonHocBE.Service.Interface
@@ -10,7 +12,9 @@ namespace DoAnMonHocBE.Service.Interface
         public ResponseObject<DTO_Comic> UpdateComic(Request_UpdateComic request);
         public ResponseObject<DTO_Comic> UpdateContentbyAdmin(Request_UpdateContentComic request);
         public ResponseObject<DTO_Comic> DeleteComic(int comicId);
-        public List<DTO_Comic> GetListComic();
-        public string GetComicContent(int comicId, int pageNumber);
+        public ResponseComicPage GetListComic(int pageNumber, int pageSize);
+        public ComicContentResponse GetComicContent(int comicId, int pageNumber);
+        public ResponseObject<DTO_Comic> GetComicById(int comicId);
+
     }
 }
