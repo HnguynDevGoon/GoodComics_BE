@@ -22,6 +22,25 @@ namespace DoAnMonHocBE.Service.Implements
             this.converter_Hobby = converter_Hobby;
         }
 
+        public ResponseBase GetLikeStatus(int userId, int comicId)
+        {
+            if (!dbContext.users.Any(x => x.Id == userId))
+            {
+                return responseBase.ResponseError(StatusCodes.Status404NotFound, "Người dùng không tồn tại");
+            }
+
+            if (!dbContext.comics.Any(x => x.Id == comicId))
+            {
+                return responseBase.ResponseError(StatusCodes.Status404NotFound, "Truyện không tồn tại");
+            }
+
+            bool isLiked = dbContext.hobbies.Any(x => x.UserId == userId && x.ComicId == comicId);
+
+            return responseBase.ResponseSuccess(isLiked ? "Đã thích truyện!" : "Chưa thích truyện!");
+        }
+
+
+
         public IQueryable<DTO_Hobby> GetListHobby(int userId)
         {
             return dbContext.hobbies
@@ -30,7 +49,12 @@ namespace DoAnMonHocBE.Service.Implements
                 {
                     Id = x.Id,
                     UserId = x.UserId,
-                    ComicId = x.ComicId
+                    Username = x.User.Username,
+                    ComicId = x.ComicId,
+                    UrlImg = x.Comic.UrlImage,
+                    ComicName = x.Comic.ComicName,
+                    ComicAuthor = x.Comic.ComicAuthor,
+                    ComicTypeName = x.Comic.ComicType.ComicTypeName,
                 });
         }
 

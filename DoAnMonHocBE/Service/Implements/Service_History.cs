@@ -45,5 +45,15 @@ namespace DoAnMonHocBE.Service.Implements
             dbContext.SaveChanges();
         }
 
+        public IQueryable<DTO_History> GetListHistory(int userId)
+        {
+            var histories = dbContext.histories
+                .Where(history => history.UserId == userId) // Lọc theo userId
+                .OrderByDescending(history => history.LastRead) // Sắp xếp theo LastRead, mới nhất lên trước
+                .Select(history => converter_History.EntityToDTO(history));
+
+            return histories;
+        }
+
     }
 }

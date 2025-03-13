@@ -15,6 +15,9 @@ namespace DoAnMonHocBE.Service.Interface
         public ResponseComicPage GetListComic(int pageNumber, int pageSize);
         public ComicContentResponse GetComicContent(int comicId, int pageNumber);
         public ResponseObject<DTO_Comic> GetComicById(int comicId);
+        public IQueryable<DTO_Comic> SearchComicByName(string comicName);
+        public IQueryable<DTO_Comic> SearchComicByType(string comicTypeName);
+
 
     }
 }

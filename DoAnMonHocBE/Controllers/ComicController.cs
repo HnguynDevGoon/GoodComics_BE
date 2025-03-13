@@ -56,5 +56,17 @@ namespace DoAnMonHocBE.Controllers
             return Ok(service_Comic.GetComicById(comicId));
         }
 
+        [HttpGet("SearchComicByName")]
+        public IActionResult SearchComicByName(string comicName)
+        {
+            return Ok(service_Comic.SearchComicByName(comicName));
+        }
+
+        [HttpGet("SearchComicByType")]
+        public IActionResult SearchComicByType(string comicTypeName)
+        {
+            return Ok(service_Comic.SearchComicByType(comicTypeName));
+        }
+
     }
 }

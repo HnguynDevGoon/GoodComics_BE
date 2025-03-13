@@ -3,72 +3,28 @@
   "WorkspaceRootPath": "D:\\Types_ of_ work\\Project\\DoAnMonHocBE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0F8578D6-DF86-4921-9CFA-B439E5EAD71E}|DoAnMonHocBE\\DoAnMonHocBE.csproj|d:\\types_ of_ work\\project\\doanmonhocbe\\doanmonhocbe\\service\\implements\\service_comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F8578D6-DF86-4921-9CFA-B439E5EAD71E}|DoAnMonHocBE\\DoAnMonHocBE.csproj|solutionrelative:doanmonhocbe\\service\\implements\\service_comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F8578D6-DF86-4921-9CFA-B439E5EAD71E}|DoAnMonHocBE\\DoAnMonHocBE.csproj|d:\\types_ of_ work\\project\\doanmonhocbe\\doanmonhocbe\\service\\implements\\service_comic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F8578D6-DF86-4921-9CFA-B439E5EAD71E}|DoAnMonHocBE\\DoAnMonHocBE.csproj|solutionrelative:doanmonhocbe\\service\\implements\\service_comic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F8578D6-DF86-4921-9CFA-B439E5EAD71E}|DoAnMonHocBE\\DoAnMonHocBE.csproj|d:\\types_ of_ work\\project\\doanmonhocbe\\doanmonhocbe\\payload\\converter\\converter_comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F8578D6-DF86-4921-9CFA-B439E5EAD71E}|DoAnMonHocBE\\DoAnMonHocBE.csproj|solutionrelative:doanmonhocbe\\payload\\converter\\converter_comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F8578D6-DF86-4921-9CFA-B439E5EAD71E}|DoAnMonHocBE\\DoAnMonHocBE.csproj|d:\\types_ of_ work\\project\\doanmonhocbe\\doanmonhocbe\\payload\\dto\\dto_comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F8578D6-DF86-4921-9CFA-B439E5EAD71E}|DoAnMonHocBE\\DoAnMonHocBE.csproj|solutionrelative:doanmonhocbe\\payload\\dto\\dto_comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F8578D6-DF86-4921-9CFA-B439E5EAD71E}|DoAnMonHocBE\\DoAnMonHocBE.csproj|d:\\types_ of_ work\\project\\doanmonhocbe\\doanmonhocbe\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F8578D6-DF86-4921-9CFA-B439E5EAD71E}|DoAnMonHocBE\\DoAnMonHocBE.csproj|solutionrelative:doanmonhocbe\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F8578D6-DF86-4921-9CFA-B439E5EAD71E}|DoAnMonHocBE\\DoAnMonHocBE.csproj|d:\\types_ of_ work\\project\\doanmonhocbe\\doanmonhocbe\\service\\interface\\iservice_comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F8578D6-DF86-4921-9CFA-B439E5EAD71E}|DoAnMonHocBE\\DoAnMonHocBE.csproj|solutionrelative:doanmonhocbe\\service\\interface\\iservice_comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F8578D6-DF86-4921-9CFA-B439E5EAD71E}|DoAnMonHocBE\\DoAnMonHocBE.csproj|d:\\types_ of_ work\\project\\doanmonhocbe\\doanmonhocbe\\payload\\response\\responsecomiccontent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F8578D6-DF86-4921-9CFA-B439E5EAD71E}|DoAnMonHocBE\\DoAnMonHocBE.csproj|solutionrelative:doanmonhocbe\\payload\\response\\responsecomiccontent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F8578D6-DF86-4921-9CFA-B439E5EAD71E}|DoAnMonHocBE\\DoAnMonHocBE.csproj|d:\\types_ of_ work\\project\\doanmonhocbe\\doanmonhocbe\\controllers\\comiccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F8578D6-DF86-4921-9CFA-B439E5EAD71E}|DoAnMonHocBE\\DoAnMonHocBE.csproj|solutionrelative:doanmonhocbe\\controllers\\comiccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F8578D6-DF86-4921-9CFA-B439E5EAD71E}|DoAnMonHocBE\\DoAnMonHocBE.csproj|d:\\types_ of_ work\\project\\doanmonhocbe\\doanmonhocbe\\service\\interface\\iservice_comic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F8578D6-DF86-4921-9CFA-B439E5EAD71E}|DoAnMonHocBE\\DoAnMonHocBE.csproj|solutionrelative:doanmonhocbe\\service\\interface\\iservice_comic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F8578D6-DF86-4921-9CFA-B439E5EAD71E}|DoAnMonHocBE\\DoAnMonHocBE.csproj|d:\\types_ of_ work\\project\\doanmonhocbe\\doanmonhocbe\\entities\\comic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F8578D6-DF86-4921-9CFA-B439E5EAD71E}|DoAnMonHocBE\\DoAnMonHocBE.csproj|solutionrelative:doanmonhocbe\\entities\\comic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F8578D6-DF86-4921-9CFA-B439E5EAD71E}|DoAnMonHocBE\\DoAnMonHocBE.csproj|d:\\types_ of_ work\\project\\doanmonhocbe\\doanmonhocbe\\payload\\response\\responsecomicpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F8578D6-DF86-4921-9CFA-B439E5EAD71E}|DoAnMonHocBE\\DoAnMonHocBE.csproj|solutionrelative:doanmonhocbe\\payload\\response\\responsecomicpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F8578D6-DF86-4921-9CFA-B439E5EAD71E}|DoAnMonHocBE\\DoAnMonHocBE.csproj|d:\\types_ of_ work\\project\\doanmonhocbe\\doanmonhocbe\\service\\implements\\service_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F8578D6-DF86-4921-9CFA-B439E5EAD71E}|DoAnMonHocBE\\DoAnMonHocBE.csproj|solutionrelative:doanmonhocbe\\service\\implements\\service_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F8578D6-DF86-4921-9CFA-B439E5EAD71E}|DoAnMonHocBE\\DoAnMonHocBE.csproj|d:\\types_ of_ work\\project\\doanmonhocbe\\doanmonhocbe\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F8578D6-DF86-4921-9CFA-B439E5EAD71E}|DoAnMonHocBE\\DoAnMonHocBE.csproj|solutionrelative:doanmonhocbe\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F8578D6-DF86-4921-9CFA-B439E5EAD71E}|DoAnMonHocBE\\DoAnMonHocBE.csproj|d:\\types_ of_ work\\project\\doanmonhocbe\\doanmonhocbe\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F8578D6-DF86-4921-9CFA-B439E5EAD71E}|DoAnMonHocBE\\DoAnMonHocBE.csproj|solutionrelative:doanmonhocbe\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0F8578D6-DF86-4921-9CFA-B439E5EAD71E}|DoAnMonHocBE\\DoAnMonHocBE.csproj|d:\\types_ of_ work\\project\\doanmonhocbe\\doanmonhocbe\\controllers\\hobbycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F8578D6-DF86-4921-9CFA-B439E5EAD71E}|DoAnMonHocBE\\DoAnMonHocBE.csproj|solutionrelative:doanmonhocbe\\controllers\\hobbycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F8578D6-DF86-4921-9CFA-B439E5EAD71E}|DoAnMonHocBE\\DoAnMonHocBE.csproj|d:\\types_ of_ work\\project\\doanmonhocbe\\doanmonhocbe\\payload\\request\\comic\\request_createcomic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F8578D6-DF86-4921-9CFA-B439E5EAD71E}|DoAnMonHocBE\\DoAnMonHocBE.csproj|solutionrelative:doanmonhocbe\\payload\\request\\comic\\request_createcomic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F8578D6-DF86-4921-9CFA-B439E5EAD71E}|DoAnMonHocBE\\DoAnMonHocBE.csproj|d:\\types_ of_ work\\project\\doanmonhocbe\\doanmonhocbe\\service\\implements\\service_hobby.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F8578D6-DF86-4921-9CFA-B439E5EAD71E}|DoAnMonHocBE\\DoAnMonHocBE.csproj|solutionrelative:doanmonhocbe\\service\\implements\\service_hobby.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F8578D6-DF86-4921-9CFA-B439E5EAD71E}|DoAnMonHocBE\\DoAnMonHocBE.csproj|d:\\types_ of_ work\\project\\doanmonhocbe\\doanmonhocbe\\payload\\request\\comic\\request_updatecomic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F8578D6-DF86-4921-9CFA-B439E5EAD71E}|DoAnMonHocBE\\DoAnMonHocBE.csproj|solutionrelative:doanmonhocbe\\payload\\request\\comic\\request_updatecomic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F8578D6-DF86-4921-9CFA-B439E5EAD71E}|DoAnMonHocBE\\DoAnMonHocBE.csproj|d:\\types_ of_ work\\project\\doanmonhocbe\\doanmonhocbe\\service\\interface\\iservice_hobby.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F8578D6-DF86-4921-9CFA-B439E5EAD71E}|DoAnMonHocBE\\DoAnMonHocBE.csproj|solutionrelative:doanmonhocbe\\service\\interface\\iservice_hobby.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F8578D6-DF86-4921-9CFA-B439E5EAD71E}|DoAnMonHocBE\\DoAnMonHocBE.csproj|d:\\types_ of_ work\\project\\doanmonhocbe\\doanmonhocbe\\payload\\dto\\dto_hobby.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F8578D6-DF86-4921-9CFA-B439E5EAD71E}|DoAnMonHocBE\\DoAnMonHocBE.csproj|solutionrelative:doanmonhocbe\\payload\\dto\\dto_hobby.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F8578D6-DF86-4921-9CFA-B439E5EAD71E}|DoAnMonHocBE\\DoAnMonHocBE.csproj|d:\\types_ of_ work\\project\\doanmonhocbe\\doanmonhocbe\\payload\\converter\\converter_hobby.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F8578D6-DF86-4921-9CFA-B439E5EAD71E}|DoAnMonHocBE\\DoAnMonHocBE.csproj|solutionrelative:doanmonhocbe\\payload\\converter\\converter_hobby.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F8578D6-DF86-4921-9CFA-B439E5EAD71E}|DoAnMonHocBE\\DoAnMonHocBE.csproj|d:\\types_ of_ work\\project\\doanmonhocbe\\doanmonhocbe\\payload\\converter\\converter_history.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F8578D6-DF86-4921-9CFA-B439E5EAD71E}|DoAnMonHocBE\\DoAnMonHocBE.csproj|solutionrelative:doanmonhocbe\\payload\\converter\\converter_history.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 29,
+          "SelectedChildIndex": 32,
           "Children": [
             {
               "$type": "Bookmark",
@@ -190,217 +146,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Converter_Comment.cs",
-              "DocumentMoniker": "D:\\Types_ of_ work\\Project\\DoAnMonHocBE\\DoAnMonHocBE\\Payload\\Converter\\Converter_Comment.cs",
-              "RelativeDocumentMoniker": "DoAnMonHocBE\\Payload\\Converter\\Converter_Comment.cs",
-              "ToolTip": "D:\\Types_ of_ work\\Project\\DoAnMonHocBE\\DoAnMonHocBE\\Payload\\Converter\\Converter_Comment.cs",
-              "RelativeToolTip": "DoAnMonHocBE\\Payload\\Converter\\Converter_Comment.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAApwBgAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T20:38:36.204Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DTO_Comment.cs",
-              "DocumentMoniker": "D:\\Types_ of_ work\\Project\\DoAnMonHocBE\\DoAnMonHocBE\\Payload\\DTO\\DTO_Comment.cs",
-              "RelativeDocumentMoniker": "DoAnMonHocBE\\Payload\\DTO\\DTO_Comment.cs",
-              "ToolTip": "D:\\Types_ of_ work\\Project\\DoAnMonHocBE\\DoAnMonHocBE\\Payload\\DTO\\DTO_Comment.cs",
-              "RelativeToolTip": "DoAnMonHocBE\\Payload\\DTO\\DTO_Comment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T20:37:10.49Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Service_Comment.cs",
-              "DocumentMoniker": "D:\\Types_ of_ work\\Project\\DoAnMonHocBE\\DoAnMonHocBE\\Service\\Implements\\Service_Comment.cs",
-              "RelativeDocumentMoniker": "DoAnMonHocBE\\Service\\Implements\\Service_Comment.cs",
-              "ToolTip": "D:\\Types_ of_ work\\Project\\DoAnMonHocBE\\DoAnMonHocBE\\Service\\Implements\\Service_Comment.cs",
-              "RelativeToolTip": "DoAnMonHocBE\\Service\\Implements\\Service_Comment.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAowDcAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T18:23:30.004Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ResponseComicContent.cs",
-              "DocumentMoniker": "D:\\Types_ of_ work\\Project\\DoAnMonHocBE\\DoAnMonHocBE\\Payload\\Response\\ResponseComicContent.cs",
-              "RelativeDocumentMoniker": "DoAnMonHocBE\\Payload\\Response\\ResponseComicContent.cs",
-              "ToolTip": "D:\\Types_ of_ work\\Project\\DoAnMonHocBE\\DoAnMonHocBE\\Payload\\Response\\ResponseComicContent.cs",
-              "RelativeToolTip": "DoAnMonHocBE\\Payload\\Response\\ResponseComicContent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-26T17:40:46.798Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ResponseComicPage.cs",
-              "DocumentMoniker": "D:\\Types_ of_ work\\Project\\DoAnMonHocBE\\DoAnMonHocBE\\Payload\\Response\\ResponseComicPage.cs",
-              "RelativeDocumentMoniker": "DoAnMonHocBE\\Payload\\Response\\ResponseComicPage.cs",
-              "ToolTip": "D:\\Types_ of_ work\\Project\\DoAnMonHocBE\\DoAnMonHocBE\\Payload\\Response\\ResponseComicPage.cs",
-              "RelativeToolTip": "DoAnMonHocBE\\Payload\\Response\\ResponseComicPage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-23T15:38:09.087Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ComicController.cs",
-              "DocumentMoniker": "D:\\Types_ of_ work\\Project\\DoAnMonHocBE\\DoAnMonHocBE\\Controllers\\ComicController.cs",
-              "RelativeDocumentMoniker": "DoAnMonHocBE\\Controllers\\ComicController.cs",
-              "ToolTip": "D:\\Types_ of_ work\\Project\\DoAnMonHocBE\\DoAnMonHocBE\\Controllers\\ComicController.cs",
-              "RelativeToolTip": "DoAnMonHocBE\\Controllers\\ComicController.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAgwCEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T15:43:37.101Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\Types_ of_ work\\Project\\DoAnMonHocBE\\DoAnMonHocBE\\Entities\\User.cs",
-              "RelativeDocumentMoniker": "DoAnMonHocBE\\Entities\\User.cs",
-              "ToolTip": "D:\\Types_ of_ work\\Project\\DoAnMonHocBE\\DoAnMonHocBE\\Entities\\User.cs",
-              "RelativeToolTip": "DoAnMonHocBE\\Entities\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T04:00:39.557Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "D:\\Types_ of_ work\\Project\\DoAnMonHocBE\\DoAnMonHocBE\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "DoAnMonHocBE\\Controllers\\UserController.cs",
-              "ToolTip": "D:\\Types_ of_ work\\Project\\DoAnMonHocBE\\DoAnMonHocBE\\Controllers\\UserController.cs",
-              "RelativeToolTip": "DoAnMonHocBE\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAswEcAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T03:56:20.743Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Comic.cs",
-              "DocumentMoniker": "D:\\Types_ of_ work\\Project\\DoAnMonHocBE\\DoAnMonHocBE\\Entities\\Comic.cs",
-              "RelativeDocumentMoniker": "DoAnMonHocBE\\Entities\\Comic.cs",
-              "ToolTip": "D:\\Types_ of_ work\\Project\\DoAnMonHocBE\\DoAnMonHocBE\\Entities\\Comic.cs",
-              "RelativeToolTip": "DoAnMonHocBE\\Entities\\Comic.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwAgAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T14:12:16.795Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Service_User.cs",
-              "DocumentMoniker": "D:\\Types_ of_ work\\Project\\DoAnMonHocBE\\DoAnMonHocBE\\Service\\Implements\\Service_User.cs",
-              "RelativeDocumentMoniker": "DoAnMonHocBE\\Service\\Implements\\Service_User.cs",
-              "ToolTip": "D:\\Types_ of_ work\\Project\\DoAnMonHocBE\\DoAnMonHocBE\\Service\\Implements\\Service_User.cs",
-              "RelativeToolTip": "DoAnMonHocBE\\Service\\Implements\\Service_User.cs",
-              "ViewState": "AgIAAMIAAAAAAAAAAIAwwNEAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T12:11:34.684Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IService_Comic.cs",
-              "DocumentMoniker": "D:\\Types_ of_ work\\Project\\DoAnMonHocBE\\DoAnMonHocBE\\Service\\Interface\\IService_Comic.cs",
-              "RelativeDocumentMoniker": "DoAnMonHocBE\\Service\\Interface\\IService_Comic.cs",
-              "ToolTip": "D:\\Types_ of_ work\\Project\\DoAnMonHocBE\\DoAnMonHocBE\\Service\\Interface\\IService_Comic.cs",
-              "RelativeToolTip": "DoAnMonHocBE\\Service\\Interface\\IService_Comic.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T13:04:47.646Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "HobbyController.cs",
-              "DocumentMoniker": "D:\\Types_ of_ work\\Project\\DoAnMonHocBE\\DoAnMonHocBE\\Controllers\\HobbyController.cs",
-              "RelativeDocumentMoniker": "DoAnMonHocBE\\Controllers\\HobbyController.cs",
-              "ToolTip": "D:\\Types_ of_ work\\Project\\DoAnMonHocBE\\DoAnMonHocBE\\Controllers\\HobbyController.cs",
-              "RelativeToolTip": "DoAnMonHocBE\\Controllers\\HobbyController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T12:31:23.814Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Request_CreateComic.cs",
-              "DocumentMoniker": "D:\\Types_ of_ work\\Project\\DoAnMonHocBE\\DoAnMonHocBE\\Payload\\Request\\Comic\\Request_CreateComic.cs",
-              "RelativeDocumentMoniker": "DoAnMonHocBE\\Payload\\Request\\Comic\\Request_CreateComic.cs",
-              "ToolTip": "D:\\Types_ of_ work\\Project\\DoAnMonHocBE\\DoAnMonHocBE\\Payload\\Request\\Comic\\Request_CreateComic.cs",
-              "RelativeToolTip": "DoAnMonHocBE\\Payload\\Request\\Comic\\Request_CreateComic.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T13:06:11.615Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Request_UpdateComic.cs",
-              "DocumentMoniker": "D:\\Types_ of_ work\\Project\\DoAnMonHocBE\\DoAnMonHocBE\\Payload\\Request\\Comic\\Request_UpdateComic.cs",
-              "RelativeDocumentMoniker": "DoAnMonHocBE\\Payload\\Request\\Comic\\Request_UpdateComic.cs",
-              "ToolTip": "D:\\Types_ of_ work\\Project\\DoAnMonHocBE\\DoAnMonHocBE\\Payload\\Request\\Comic\\Request_UpdateComic.cs",
-              "RelativeToolTip": "DoAnMonHocBE\\Payload\\Request\\Comic\\Request_UpdateComic.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T13:06:12.569Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "IService_Comment.cs",
-              "DocumentMoniker": "D:\\Types_ of_ work\\Project\\DoAnMonHocBE\\DoAnMonHocBE\\Service\\Interface\\IService_Comment.cs",
-              "RelativeDocumentMoniker": "DoAnMonHocBE\\Service\\Interface\\IService_Comment.cs",
-              "ToolTip": "D:\\Types_ of_ work\\Project\\DoAnMonHocBE\\DoAnMonHocBE\\Service\\Interface\\IService_Comment.cs",
-              "RelativeToolTip": "DoAnMonHocBE\\Service\\Interface\\IService_Comment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABBAAAAAAAAAA==",
+              "Title": "Converter_History.cs",
+              "DocumentMoniker": "D:\\Types_ of_ work\\Project\\DoAnMonHocBE\\DoAnMonHocBE\\Payload\\Converter\\Converter_History.cs",
+              "RelativeDocumentMoniker": "DoAnMonHocBE\\Payload\\Converter\\Converter_History.cs",
+              "ToolTip": "D:\\Types_ of_ work\\Project\\DoAnMonHocBE\\DoAnMonHocBE\\Payload\\Converter\\Converter_History.cs",
+              "RelativeToolTip": "DoAnMonHocBE\\Payload\\Converter\\Converter_History.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T13:32:36.083Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CommentController.cs",
-              "DocumentMoniker": "D:\\Types_ of_ work\\Project\\DoAnMonHocBE\\DoAnMonHocBE\\Controllers\\CommentController.cs",
-              "RelativeDocumentMoniker": "DoAnMonHocBE\\Controllers\\CommentController.cs",
-              "ToolTip": "D:\\Types_ of_ work\\Project\\DoAnMonHocBE\\DoAnMonHocBE\\Controllers\\CommentController.cs",
-              "RelativeToolTip": "DoAnMonHocBE\\Controllers\\CommentController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-12T13:32:24.019Z",
+              "WhenOpened": "2025-03-13T05:45:49.615Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Service_Comic.cs",
-              "DocumentMoniker": "D:\\Types_ of_ work\\Project\\DoAnMonHocBE\\DoAnMonHocBE\\Service\\Implements\\Service_Comic.cs",
-              "RelativeDocumentMoniker": "DoAnMonHocBE\\Service\\Implements\\Service_Comic.cs",
-              "ToolTip": "D:\\Types_ of_ work\\Project\\DoAnMonHocBE\\DoAnMonHocBE\\Service\\Implements\\Service_Comic.cs",
-              "RelativeToolTip": "DoAnMonHocBE\\Service\\Implements\\Service_Comic.cs",
-              "ViewState": "AgIAAMwAAAAAAAAAAAAwwHMAAAAiAAAAAAAAAA==",
+              "Title": "Service_Hobby.cs",
+              "DocumentMoniker": "D:\\Types_ of_ work\\Project\\DoAnMonHocBE\\DoAnMonHocBE\\Service\\Implements\\Service_Hobby.cs",
+              "RelativeDocumentMoniker": "DoAnMonHocBE\\Service\\Implements\\Service_Hobby.cs",
+              "ToolTip": "D:\\Types_ of_ work\\Project\\DoAnMonHocBE\\DoAnMonHocBE\\Service\\Implements\\Service_Hobby.cs",
+              "RelativeToolTip": "DoAnMonHocBE\\Service\\Implements\\Service_Hobby.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAiwCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T12:47:23.995Z",
+              "WhenOpened": "2025-03-13T05:44:15.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IService_Hobby.cs",
+              "DocumentMoniker": "D:\\Types_ of_ work\\Project\\DoAnMonHocBE\\DoAnMonHocBE\\Service\\Interface\\IService_Hobby.cs",
+              "RelativeDocumentMoniker": "DoAnMonHocBE\\Service\\Interface\\IService_Hobby.cs",
+              "ToolTip": "D:\\Types_ of_ work\\Project\\DoAnMonHocBE\\DoAnMonHocBE\\Service\\Interface\\IService_Hobby.cs",
+              "RelativeToolTip": "DoAnMonHocBE\\Service\\Interface\\IService_Hobby.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T05:44:10.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Converter_Hobby.cs",
+              "DocumentMoniker": "D:\\Types_ of_ work\\Project\\DoAnMonHocBE\\DoAnMonHocBE\\Payload\\Converter\\Converter_Hobby.cs",
+              "RelativeDocumentMoniker": "DoAnMonHocBE\\Payload\\Converter\\Converter_Hobby.cs",
+              "ToolTip": "D:\\Types_ of_ work\\Project\\DoAnMonHocBE\\DoAnMonHocBE\\Payload\\Converter\\Converter_Hobby.cs",
+              "RelativeToolTip": "DoAnMonHocBE\\Payload\\Converter\\Converter_Hobby.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T05:43:37.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DTO_Hobby.cs",
+              "DocumentMoniker": "D:\\Types_ of_ work\\Project\\DoAnMonHocBE\\DoAnMonHocBE\\Payload\\DTO\\DTO_Hobby.cs",
+              "RelativeDocumentMoniker": "DoAnMonHocBE\\Payload\\DTO\\DTO_Hobby.cs",
+              "ToolTip": "D:\\Types_ of_ work\\Project\\DoAnMonHocBE\\DoAnMonHocBE\\Payload\\DTO\\DTO_Hobby.cs",
+              "RelativeToolTip": "DoAnMonHocBE\\Payload\\DTO\\DTO_Hobby.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T05:08:02.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HobbyController.cs",
+              "DocumentMoniker": "D:\\Types_ of_ work\\Project\\DoAnMonHocBE\\DoAnMonHocBE\\Controllers\\HobbyController.cs",
+              "RelativeDocumentMoniker": "DoAnMonHocBE\\Controllers\\HobbyController.cs",
+              "ToolTip": "D:\\Types_ of_ work\\Project\\DoAnMonHocBE\\DoAnMonHocBE\\Controllers\\HobbyController.cs",
+              "RelativeToolTip": "DoAnMonHocBE\\Controllers\\HobbyController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T12:31:23.814Z",
               "EditorCaption": ""
             }
           ]

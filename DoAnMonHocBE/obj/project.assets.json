@@ -1114,7 +1114,7 @@
           }
         }
       },
-      "SixLabors.ImageSharp/3.1.6": {
+      "SixLabors.ImageSharp/3.1.7": {
         "type": "package",
         "compile": {
           "lib/net6.0/SixLabors.ImageSharp.dll": {
@@ -2350,6 +2350,19 @@
           "runtimes/win/lib/net6.0/System.Windows.Extensions.dll": {
             "assetType": "runtime",
             "rid": "win"
+          }
+        }
+      },
+      "Unidecode.NET/2.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Unidecode.NET.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Unidecode.NET.dll": {
+            "related": ".xml"
           }
         }
       }
@@ -4291,10 +4304,10 @@
         "runtimes/ubuntu.16.10-x64/native/System.Security.Cryptography.Native.OpenSsl.so"
       ]
     },
-    "SixLabors.ImageSharp/3.1.6": {
-      "sha512": "dHQ5jugF9v+5/LCVHCWVzaaIL6WOehqJy6eju/0VFYFPEj2WtqkGPoEV9EVQP83dHsdoqYaTuWpZdwAd37UwfA==",
+    "SixLabors.ImageSharp/3.1.7": {
+      "sha512": "9fIOOAsyLFid6qKypM2Iy0Z3Q9yoanV8VoYAHtI2sYGMNKzhvRTjgFDHonIiVe+ANtxIxM6SuqUzj0r91nItpA==",
       "type": "package",
-      "path": "sixlabors.imagesharp/3.1.6",
+      "path": "sixlabors.imagesharp/3.1.7",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -4303,7 +4316,7 @@
         "lib/net6.0/SixLabors.ImageSharp.dll",
         "lib/net6.0/SixLabors.ImageSharp.xml",
         "sixlabors.imagesharp.128.png",
-        "sixlabors.imagesharp.3.1.6.nupkg.sha512",
+        "sixlabors.imagesharp.3.1.7.nupkg.sha512",
         "sixlabors.imagesharp.nuspec"
       ]
     },
@@ -7229,6 +7242,23 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Unidecode.NET/2.1.0": {
+      "sha512": "AY7AC9+8wOgKY/RNol7BTiVk6BO46l0+O2TtwUdhRneixRzxYW278bd+AtCe13P1iU8hG1hdICa2UJyHzx95nA==",
+      "type": "package",
+      "path": "unidecode.net/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard1.2/Unidecode.NET.dll",
+        "lib/netstandard1.2/Unidecode.NET.xml",
+        "lib/netstandard2.0/Unidecode.NET.dll",
+        "lib/netstandard2.0/Unidecode.NET.xml",
+        "lib/netstandard2.1/Unidecode.NET.dll",
+        "lib/netstandard2.1/Unidecode.NET.xml",
+        "unidecode.net.2.1.0.nupkg.sha512",
+        "unidecode.net.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
@@ -7239,8 +7269,9 @@
       "Microsoft.EntityFrameworkCore.Design >= 8.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.0",
-      "SixLabors.ImageSharp >= 3.1.6",
-      "Swashbuckle.AspNetCore >= 6.6.2"
+      "SixLabors.ImageSharp >= 3.1.7",
+      "Swashbuckle.AspNetCore >= 6.6.2",
+      "Unidecode.NET >= 2.1.0"
     ]
   },
   "packageFolders": {
@@ -7323,11 +7354,15 @@
           },
           "SixLabors.ImageSharp": {
             "target": "Package",
-            "version": "[3.1.6, )"
+            "version": "[3.1.7, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[6.6.2, )"
+          },
+          "Unidecode.NET": {
+            "target": "Package",
+            "version": "[2.1.0, )"
           }
         },
         "imports": [

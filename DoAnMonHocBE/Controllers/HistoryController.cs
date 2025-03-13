@@ -20,5 +20,11 @@ namespace DoAnMonHocBE.Controllers
             service_History.AddHistoryAfterClick(userId, comicId);
         }
 
+        [HttpGet("GetListHistory")]
+        public IActionResult GetListHistory(int userId)
+        { 
+            return Ok(service_History.GetListHistory(userId));
+        }
+
     }
 }

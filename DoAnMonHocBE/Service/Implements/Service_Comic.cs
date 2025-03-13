@@ -8,6 +8,8 @@ using DoAnMonHocBE.Payload.Response;
 using DoAnMonHocBE.PayLoad.Converter;
 using DoAnMonHocBE.PayLoad.Response;
 using DoAnMonHocBE.Service.Interface;
+using Microsoft.EntityFrameworkCore;
+using Unidecode.NET;
 
 namespace DoAnMonHocBE.Service.Implements
 {
@@ -123,7 +125,8 @@ namespace DoAnMonHocBE.Service.Implements
         public ResponseComicPage GetListComic(int pageNumber, int pageSize)
         {
             var query = dbContext.comics
-                .OrderBy(comic => comic.Id);
+                .AsEnumerable()  // Di chuyển về client để thực hiện sắp xếp ngẫu nhiên
+                .OrderBy(c => Guid.NewGuid()); // Sắp xếp ngẫu nhiên bằng Guid
 
             int totalItems = query.Count();
             int totalPages = (int)Math.Ceiling(totalItems / (double)pageSize);
@@ -143,6 +146,29 @@ namespace DoAnMonHocBE.Service.Implements
                 TotalItems = totalItems
             };
         }
+        //public ResponseComicPage GetListComic(int pageNumber, int pageSize)
+        //{
+        //    var query = dbContext.comics
+        //        .OrderBy(comic => comic.Id);
+
+        //    int totalItems = query.Count();
+        //    int totalPages = (int)Math.Ceiling(totalItems / (double)pageSize);
+
+        //    var comics = query
+        //        .Skip((pageNumber - 1) * pageSize)
+        //        .Take(pageSize)
+        //        .Select(comic => converter_Comic.EntityToDTO(comic))
+        //        .ToList()
+        //        .AsQueryable();
+
+        //    return new ResponseComicPage
+        //    {
+        //        Comics = comics,
+        //        TotalPages = totalPages,
+        //        CurrentPage = pageNumber,
+        //        TotalItems = totalItems
+        //    };
+        //}
 
 
         public ResponseObject<DTO_Comic> UpdateComic(Request_UpdateComic request)
@@ -220,5 +246,31 @@ namespace DoAnMonHocBE.Service.Implements
             return responseObject.ResponseObjectSuccess("Cập nhật truyện thành công!", null);
         }
 
+
+        public IQueryable<DTO_Comic> SearchComicByName(string comicName)
+        {
+            // Loại bỏ dấu từ input (trước khi gửi lên cơ sở dữ liệu)
+            string normalizedComicName = comicName.Unidecode().ToLower();
+
+            var comics = dbContext.comics
+                .AsEnumerable() // Chuyển dữ liệu sang bộ nhớ (không dùng trên database nữa)
+                .Where(x => x.ComicName.Unidecode().ToLower().Contains(normalizedComicName)) // Loại bỏ dấu và tìm kiếm
+                .Select(x => converter_Comic.EntityToDTO(x));
+
+            return comics.AsQueryable(); // Chuyển lại thành IQueryable
+        }
+
+        public IQueryable<DTO_Comic> SearchComicByType(string comicTypeName)
+        {
+            var comics = dbContext.comics
+                .Include(x => x.ComicType) 
+                .Where(x => x.ComicType.ComicTypeName.ToLower().Contains(comicTypeName.ToLower())) 
+                .Select(x => converter_Comic.EntityToDTO(x));
+
+            return comics.AsQueryable(); 
+        }
+
     }
+
 }
+

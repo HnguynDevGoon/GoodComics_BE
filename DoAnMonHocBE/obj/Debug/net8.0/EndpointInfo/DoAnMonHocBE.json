@@ -289,6 +289,48 @@
         }
       }
     },
+    "/api/Comic/SearchComicByName": {
+      "get": {
+        "tags": [
+          "Comic"
+        ],
+        "parameters": [
+          {
+            "name": "comicName",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Comic/SearchComicByType": {
+      "get": {
+        "tags": [
+          "Comic"
+        ],
+        "parameters": [
+          {
+            "name": "comicTypeName",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/ComicType/CreateComicType": {
       "post": {
         "tags": [
@@ -482,6 +524,28 @@
         }
       }
     },
+    "/api/History/GetListHistory": {
+      "get": {
+        "tags": [
+          "History"
+        ],
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Hobby/ToggleHobby": {
       "post": {
         "tags": [
@@ -520,6 +584,36 @@
         "parameters": [
           {
             "name": "userId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Hobby/GetLikeStatus": {
+      "get": {
+        "tags": [
+          "Hobby"
+        ],
+        "parameters": [
+          {
+            "name": "userId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "comicId",
             "in": "query",
             "schema": {
               "type": "integer",

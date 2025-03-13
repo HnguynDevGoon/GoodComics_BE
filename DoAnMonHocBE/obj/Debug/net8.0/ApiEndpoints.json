@@ -116,6 +116,38 @@
   },
   {
     "ContainingType": "DoAnMonHocBE.Controllers.ComicController",
+    "Method": "SearchComicByName",
+    "RelativePath": "api/Comic/SearchComicByName",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "comicName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DoAnMonHocBE.Controllers.ComicController",
+    "Method": "SearchComicByType",
+    "RelativePath": "api/Comic/SearchComicByType",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "comicTypeName",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DoAnMonHocBE.Controllers.ComicController",
     "Method": "UpdateComic",
     "RelativePath": "api/Comic/UpdateComic",
     "HttpMethod": "PUT",
@@ -317,6 +349,43 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "DoAnMonHocBE.Controllers.HistoryController",
+    "Method": "GetListHistory",
+    "RelativePath": "api/History/GetListHistory",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DoAnMonHocBE.Controllers.HobbyController",
+    "Method": "GetLikeStatus",
+    "RelativePath": "api/Hobby/GetLikeStatus",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "comicId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "DoAnMonHocBE.Controllers.HobbyController",

@@ -80,11 +80,15 @@
             },
             "SixLabors.ImageSharp": {
               "target": "Package",
-              "version": "[3.1.6, )"
+              "version": "[3.1.7, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
+            },
+            "Unidecode.NET": {
+              "target": "Package",
+              "version": "[2.1.0, )"
             }
           },
           "imports": [

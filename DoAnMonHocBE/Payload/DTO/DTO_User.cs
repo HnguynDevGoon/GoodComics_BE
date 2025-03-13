@@ -9,6 +9,7 @@ namespace DoAnMonHocBE.PayLoad.DTO
         public string Password { get; set; }
         public string Email { get; set; }
         public string Urlavartar { get; set; }
+        public int RoleId { get; set; }
 
     }
 }

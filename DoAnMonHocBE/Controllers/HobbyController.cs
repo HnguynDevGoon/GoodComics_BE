@@ -26,5 +26,12 @@ namespace DoAnMonHocBE.Controllers
         {
             return Ok(service_Hobby.GetListHobby(userId));
         }
+
+        [HttpGet("GetLikeStatus")]
+        public IActionResult GetLikeStatus(int userId, int comicId)
+        {
+            return Ok(service_Hobby.GetLikeStatus(userId, comicId));
+        }
+
     }
 }

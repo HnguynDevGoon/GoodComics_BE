@@ -14,8 +14,9 @@
           "Microsoft.EntityFrameworkCore.Design": "8.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.0",
           "Microsoft.EntityFrameworkCore.Tools": "8.0.0",
-          "SixLabors.ImageSharp": "3.1.6",
-          "Swashbuckle.AspNetCore": "6.6.2"
+          "SixLabors.ImageSharp": "3.1.7",
+          "Swashbuckle.AspNetCore": "6.6.2",
+          "Unidecode.NET": "2.1.0"
         },
         "runtime": {
           "DoAnMonHocBE.dll": {}
@@ -686,11 +687,11 @@
       "runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {},
       "runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {},
       "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.2": {},
-      "SixLabors.ImageSharp/3.1.6": {
+      "SixLabors.ImageSharp/3.1.7": {
         "runtime": {
           "lib/net6.0/SixLabors.ImageSharp.dll": {
             "assemblyVersion": "3.0.0.0",
-            "fileVersion": "3.1.6.0"
+            "fileVersion": "3.1.7.0"
           }
         }
       },
@@ -1295,6 +1296,14 @@
             "fileVersion": "6.0.21.52210"
           }
         }
+      },
+      "Unidecode.NET/2.1.0": {
+        "runtime": {
+          "lib/netstandard2.1/Unidecode.NET.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.0"
+          }
+        }
       }
     }
   },
@@ -1738,12 +1747,12 @@
       "path": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl/4.3.2",
       "hashPath": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512"
     },
-    "SixLabors.ImageSharp/3.1.6": {
+    "SixLabors.ImageSharp/3.1.7": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-dHQ5jugF9v+5/LCVHCWVzaaIL6WOehqJy6eju/0VFYFPEj2WtqkGPoEV9EVQP83dHsdoqYaTuWpZdwAd37UwfA==",
-      "path": "sixlabors.imagesharp/3.1.6",
-      "hashPath": "sixlabors.imagesharp.3.1.6.nupkg.sha512"
+      "sha512": "sha512-9fIOOAsyLFid6qKypM2Iy0Z3Q9yoanV8VoYAHtI2sYGMNKzhvRTjgFDHonIiVe+ANtxIxM6SuqUzj0r91nItpA==",
+      "path": "sixlabors.imagesharp/3.1.7",
+      "hashPath": "sixlabors.imagesharp.3.1.7.nupkg.sha512"
     },
     "Swashbuckle.AspNetCore/6.6.2": {
       "type": "package",
@@ -2206,6 +2215,13 @@
       "sha512": "sha512-IXoJOXIqc39AIe+CIR7koBtRGMiCt/LPM3lI+PELtDIy9XdyeSrwXFdWV9dzJ2Awl0paLWUaknLxFQ5HpHZUog==",
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
+    },
+    "Unidecode.NET/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-AY7AC9+8wOgKY/RNol7BTiVk6BO46l0+O2TtwUdhRneixRzxYW278bd+AtCe13P1iU8hG1hdICa2UJyHzx95nA==",
+      "path": "unidecode.net/2.1.0",
+      "hashPath": "unidecode.net.2.1.0.nupkg.sha512"
     }
   }
 }
